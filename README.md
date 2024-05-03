@@ -11,7 +11,12 @@ The application allows users to:
 
 ## System Architecture
 
-1. **app.py**: This is the main entry point for the Streamlit application. It initializes the application, loads environment variables, and uses the Gemini model from Google's Generative AI for chat responses. It also handles the UI components for user interactions such as asking questions and displaying answers.
+1. **app.py**: This file is used to create #csv agent# to communicate with the Premier League CSV file using the Gemini model from Google's Generative AI for chat responses. It also handles the UI components for user interactions such as asking questions and displaying answers. Its performance was very poor as it needed more context to be able to better answer questions about the Premier League's history. Below are some screenshots from its outputs:
+
+<img width="468" alt="image" src="https://github.com/osebom/rag_multiple_docs/assets/40761922/aa393f30-39e6-4b9f-abd9-b784cabc28a0">
+<img width="468" alt="image" src="https://github.com/osebom/rag_multiple_docs/assets/40761922/947cadaf-9f7d-4993-b104-1c1b59f4baa3">
+<img width="468" alt="image" src="https://github.com/osebom/rag_multiple_docs/assets/40761922/9f25a53f-5dfc-4d51-865d-ea131d9f47df">
+
 
 2. **utils.py**: Contains utility functions essential for document processing:
    - Document loading functions for different file formats.

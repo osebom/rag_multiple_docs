@@ -35,8 +35,8 @@ The application allows users to:
    - Manages the chat interface, processing user prompts, and displaying conversation history.
      <img width="468" alt="image" src="https://github.com/osebom/rag_multiple_docs/assets/40761922/8d0a6866-6b9b-42f1-8af7-92f2efa5e7fd">
      
-Below are some screenshots from the output:
-<img width="468" alt="image" src="https://github.com/osebom/rag_multiple_docs/assets/40761922/d39757d7-d51f-4d24-8e62-96a4a382df9a">
+- Below are some screenshots from the output:
+   <img width="468" alt="image" src="https://github.com/osebom/rag_multiple_docs/assets/40761922/d39757d7-d51f-4d24-8e62-96a4a382df9a">
 
 Similar to the csv agent, a lot more clear context is needed in order for the chatbot to efficiently answer questions specific to football. For instance, the user would have to be 
 very clear asking about specific seasons as the dataset identifies seasons through the Season_End_Year column, if not, then the LLM makes massive assumptions about the question which leads to very inconsistent answers for the same question.
